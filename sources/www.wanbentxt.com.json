@@ -3,7 +3,7 @@
     "url": "www.xinwanben.com",
     "version": 106,
     "search": {
-        "url": "https://www.wanbentxt.net/api/api.php@post->skey=${key}&action=search&page=1",
+        "url": "https://www.xinwanben.com/api/api.php@post->skey=${key}&action=search&page=1",
          "charset": "utf-8",
         "list": "$..data[*]",
         "name": "$.articlename",
